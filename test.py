@@ -40,3 +40,19 @@ ma_liste = ["a", "b", "c", "d", "e"]
 element_aleatoire = random.choice(ma_liste)
 
 print(element_aleatoire)
+
+def aleatoire(choice_or_randint, list=[] , min=0, max=10): 
+
+    if choice_or_randint == True: 
+
+        return random.randint(min,max) 
+
+    else: 
+
+        return random.choice(list) 
+
+print(aleatoire(False, list = [9,0,20,8,7,22,100,199992]))  
+
+print(aleatoire(True, min=999, max=1000)) 
+
+ 
