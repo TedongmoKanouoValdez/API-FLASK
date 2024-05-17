@@ -49,7 +49,7 @@
 #     mon_instance.mainloop()
 
 from openai import OpenAI
-client = OpenAI(api_key="sk-proj-xP6IBb1MXBAQzmQeTQzLT3BlbkFJaOtwBEfS1B1DhCh0EjN0")
+client = OpenAI(api_key="KEY Api")
 
 import customtkinter
 import requests
